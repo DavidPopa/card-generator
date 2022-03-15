@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  font-weight: 700;
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.icon {
+  padding: 1.2rem;
+  background-color: tomato;
+  color: aliceblue;
+  min-width: 5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.cours-input-field,
+.author-input-field,
+.name-input-field {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+}
+.input-field:focus {
+  border: 2px solid tomato;
+}
+.btn {
+  background-color: tomato;
+  color: aliceblue;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  background-color: coral;
+}
+.customer-list {
+  margin: 1rem;
+}
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+.grid-3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.img-card {
+  width: 100%;
+}
+.card-body {
+  font-size: 3rem;
+  font-weight: 600;
+  color: aliceblue;
+}
+.n-yellow {
+  background-color: #ffc107;
+  border: 1px solid;
+}
+.n-green {
+  background-color: green;
+}
+.n-red {
+  background-color: red;
+}
+.name,
+.cours,
+.author {
+  display: flex;
+  flex-direction: row;
+}
+.user {
+  color: black;
+}
